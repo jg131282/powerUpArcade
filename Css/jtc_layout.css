@@ -31,7 +31,6 @@ body {
 	border-right: 1px solid gray;
 }
 
-
 body > header nav {
 	display: block;
 	text-align: right;
@@ -57,7 +56,6 @@ body > header > nav ul li a {
 body > header > nav ul li a:visited {
 	color: #EFEFEF;
 }
-
 
 body > header > nav ul li a:hover {
 	color: #ffff80;
@@ -128,7 +126,7 @@ footer {
 	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	text-align: center;
 	font-size: 0.7em;
-	border-top: 2px solid #536334;
+	border-top: 2px solid black;
 	padding-top: 10px;
 	padding-bottom: 20px;
 }
@@ -139,7 +137,6 @@ footer {
 	devices.
    =============================================
 */
-
 
 @media only screen and (min-width: 601px) {
 
@@ -201,7 +198,9 @@ body > h2 {
 
 body > p {
 	margin-left: 30px;
+	margin-right: 30px;
 	font-size: 1em;
+	text-align: center;
 }
 
 body > img {
@@ -225,14 +224,17 @@ footer {
 @media only screen and (min-width: 769px) {
 
 html {
-	background-color: white;
+	/*background-color: rgb(59, 177, 67); 			/*green*/
+	background-color: #560606;				/*crimson red
+	/*background-color: #7A7675*/				/*smoky gray*/
 }
 
 body {
 	width: 90%;
 	max-width: 1020px;
-	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
-
+	/*box-shadow: 15px 15px 30px red;*/
+/*-moz-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px*/
+box-shadow: rgba(255, 0, 0, 0.4) 60px 0px 25px,  rgba(255, 0, 0, 0.4) -60px 0px 25px;
 }
 
 }
